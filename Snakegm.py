@@ -50,7 +50,7 @@ class SNAKE:
         self.body_br = pygame.transform.scale(body_br, (40, 40)).convert_alpha()
         body_bl = pygame.image.load('body_bl.png').convert_alpha()   
         self.body_bl = pygame.transform.scale(body_bl, (40, 40)).convert_alpha()
-        self.pipe_sound = pygame.mixer.Sound('sound\metal pipe.mp3')
+        self.pipe_sound = pygame.mixer.Sound('metal pipe.mp3')
 
     def drawsnake(self):
         self.update_head_graphics()
